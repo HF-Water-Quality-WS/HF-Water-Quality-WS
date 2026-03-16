@@ -56,7 +56,7 @@ body{
 
 /* Formatting for the main header section on the homepage */
 .hero {
-  text-align: center;
+  text-align: left;
 
   /* Space below the header for separation from the rest of the content */
   margin-bottom: 40px;
