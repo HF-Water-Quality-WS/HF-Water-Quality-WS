@@ -74,7 +74,7 @@ body{
 }
 
 /* Style for the image in the header section */
-.hero img {
+.hero-image {
   display: block;     /* makes it act like a block element */
   margin: 0;          /* remove default margins */
   float: left;        /* float it to the left */
