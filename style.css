@@ -54,6 +54,17 @@ body{
   padding: 40px;
 }
 
+/* Global page-content container for headers, paragraphs, images */
+.content-container {
+  max-width: 800px;       /* same width for text & images */
+  margin: auto;           /* center content */
+  text-align: justify;    /* justify text and headers */
+  line-height: 1.6;       /* readable spacing */
+  display: flex;          /* flex layout for hero image + text */
+  gap: 20px;              /* space between image and text */
+  flex-wrap: wrap;        /* wrap content on small screens */
+}
+
 /* Formatting for the main header section on the homepage */
 .hero {
   text-align: left;
@@ -64,7 +75,6 @@ body{
 
 /* Style for the image in the header section */
 .hero img {
-.hero img {
   display: block;     /* makes it act like a block element */
   margin: 0;          /* remove default margins */
   float: left;        /* float it to the left */
@@ -72,8 +82,6 @@ body{
   height: auto;       /* maintain aspect ratio */
   margin-right: 20px; /* spacing between image and text */
 }
-}
-
 
 /* Formatting for the description section on the homepage */
 .description {
