@@ -3,43 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Workshop on Example Research</title>
+<!-- Title of webpage displayed on the browser tab -->
+<title>HFWQ WS2026</title> 
+<!-- Link to external CSS file for styling -->
 <link rel="stylesheet" href="style.css">
 </head>
 
+<!-- Everything in body is visible on the webpage -->
 <body>
 
-<nav>
+<!-- Container for the main content -->
+<div class="container">
+
+<!-- Navigation sidebar for links to different sections of the website -->
+<nav class="sidebar">
+
+<!-- Heading for the navigation section -->
+<h2>Navigation</h2>
+
+<!-- Links to different pages of the website (creates clickable links) -->
 <a href="index.html">Home</a>
 <a href="upcoming.html">Upcoming Event</a>
+<a href="archive.html">Past Editions</a>
+<a href="organizers.html">Organizers</a>
+
 </nav>
 
-<header>
-<h1>Workshop on Example Research</h1>
-<p>Co-located with Conference XYZ</p>
+<!-- Main content area where the primary information will be displayed -->
+<main class="content">
+
+
+<!-- Header section with a banner image and title for the workshop -->
+<header class="hero">
+
+<!-- Banner image for the workshop (make sure the file is in the same directory) -->
+<img src="banner.png" alt="Workshop banner">
+
+<!-- Title displayed as header on the webpage -->
+<h1>6th Workshop on high temporal resolution water quality monitoring and analysis</h1>
+
 </header>
 
-<section>
+<!-- Section for the description of the workshop -->
+<section class="description">
+
+<!-- Subheading for the description of the workshop -->
 <h2>About the Workshop</h2>
+
+<!-- Individual paragraphs for the description -->
 <p>
-This workshop brings together researchers working on example topics.
+This workshop brings together researchers working on
+example topics in machine learning and data science.
 </p>
+
+<p>
+The goal is to encourage discussion and collaboration
+between academia and industry.
+</p>
+
 </section>
 
-<section>
-<h2>Next Edition</h2>
-<p>
-The next workshop will take place in <b>June 2026</b>.
-</p>
+</main>
 
-<p>
-See details on the <a href="upcoming.html">Upcoming Event page</a>.
-</p>
-</section>
-
-<footer>
-<p>© 2026 Workshop Organizers</p>
-</footer>
+</div>
 
 </body>
-</html>
