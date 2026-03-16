@@ -75,6 +75,13 @@ body{
   max-width: 800px;
 }
 
+h1 {
+  /* Set color and spacing for the main header */
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
 /* Formatting for date and location */
 h2 {
   text-align: center;
