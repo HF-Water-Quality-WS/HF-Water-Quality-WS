@@ -94,3 +94,9 @@ h3 {
   margin-top: 0;
   color: #000000;
 }
+
+/* Can use for important announcements */
+h4 {
+  margin-top: 0;
+  color: #ca0b0b;
+}
