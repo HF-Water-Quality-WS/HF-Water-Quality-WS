@@ -1,0 +1,84 @@
+/* Applies to entire website */
+body{
+    /* Reset default margin and set font */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* Formatting for the website container */
+.container {
+  /* Activate flexbox layout which allows content to sit side by side */
+  display: flex;
+
+  /* Sets viewport height to 100% to allow for full height of the page */ 
+  min-height: 100vh;
+}
+
+/* Formatting for the sidebar */
+.sidebar {
+  /* Set fixed width for the sidebar and background color */
+  width: 220px;
+  background: #2c3e50;
+
+  /* Space around the text and color */
+  padding: 20px;
+  color: white;
+}
+
+/* Style links in the sidebar */
+.sidebar a {
+  /* Make links block elements for easier clicking, set color and remove underline */
+  display: block;
+  color: white;
+  text-decoration: none;
+
+  /* Space around links */
+  margin: 10px 0;
+  padding: 8px;
+
+  /* Makes buttons rounded */
+  border-radius: 4px;
+}
+
+/* Hover effect for sidebar links */
+.sidebar a:hover {
+  /* Lighten background on hover for better user experience */
+  background: #34495e;
+}
+
+/* Formatting for the main content area */
+.content {
+  /* Allow content to take up remaining space and add padding */
+  flex: 1;
+  padding: 40px;
+}
+
+/* Formatting for the main header section on the homepage */
+.hero {
+  text-align: center;
+
+  /* Space below the header for separation from the rest of the content */
+  margin-bottom: 40px;
+}
+
+/* Style for the image in the header section */
+.hero img {
+  width: 100%;
+  max-height: 300px;
+
+  /* Ensure the image covers the area without distortion and has rounded corners */
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Formatting for the description section on the homepage */
+.description {
+  max-width: 800px;
+}
+
+/* Formatting for sub-section headers */
+h2 {
+  margin-top: 0;
+  color: #333;
+}
