@@ -65,15 +65,16 @@ body{
   flex-wrap: wrap;        /* wrap content on small screens */
 }
 
-/* Formatting for the main header section on the homepage */
+/* Hero section container */
 .hero {
-  text-align: left;
-
-  /* Space below the header for separation from the rest of the content */
-  margin-bottom: 40px;
+  max-width: 800px;         /* aligns with body text width */
+  margin: auto;             /* centers the container */
+  text-align: justify;      /* justify headers and paragraphs */
+  line-height: 1.5;
+  padding: 20px 0;
 }
 
-/* Style for the image in the header section */
+/* Banner image */
 .hero-image {
   width: 100%;              /* full width of container */
   height: auto;             /* maintain aspect ratio */
@@ -82,31 +83,42 @@ body{
   border-radius: 6px;       /* optional rounding */
 }
 
-/* Formatting for the description section on the homepage */
-.description {
-  max-width: 800px;
-}
-
 h1 {
   /* Set color and spacing for the main header */
   color: #34495e;
-  margin-bottom: 20px;
+  font-weight: 700;         /* bold */
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: justify;      /* aligns with paragraphs */
 }
 
 /* Formatting for date and location */
 h2 {
-  margin-top: 0;
+  margin: 5px 0;
+  font-weight: 600;
+  text-align: justify;
   color: #e4bc0a;
 }
 
-/* Formating for the workshop topics section */
+/* Can use for important announcements */
 h3 {
+  margin-top: 15px;
+  font-weight: 700;
+  text-align: justify;
+  color: #ca0b0b;
+}
+
+
+/* Below is for the main body... */
+
+/* Formating for the workshop topics section */
+h4 {
   margin-top: 0;
   color: #000000;
 }
 
-/* Can use for important announcements */
-h4 {
-  margin-top: 0;
-  color: #ca0b0b;
+
+/* Formatting for the description section on the homepage */
+.description {
+  max-width: 800px;
 }
