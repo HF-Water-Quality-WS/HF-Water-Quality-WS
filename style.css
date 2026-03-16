@@ -75,9 +75,15 @@ body{
   max-width: 800px;
 }
 
-/* Formatting for sub-section headers */
+/* Formatting for date and location */
 h2 {
   text-align: center;
   margin-top: 0;
   color: #e4bc0a;
+}
+
+/* Formating for the workshop topics section */
+h3 {
+  margin-top: 0;
+  color: #000000;
 }
