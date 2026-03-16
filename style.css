@@ -64,9 +64,14 @@ body{
 
 /* Style for the image in the header section */
 .hero img {
-  width: 75%;
-  max-height: auto;
-  object-fit: cover;
+.hero img {
+  display: block;     /* makes it act like a block element */
+  margin: 0;          /* remove default margins */
+  float: left;        /* float it to the left */
+  max-width: 50%;     /* optional: controls how much width the image takes */
+  height: auto;       /* maintain aspect ratio */
+  margin-right: 20px; /* spacing between image and text */
+}
 }
 
 
