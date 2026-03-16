@@ -65,10 +65,8 @@ body{
 /* Style for the image in the header section */
 .hero img {
   width: 100%;
-  height: 300px;       /* fixed height */
-  object-fit: contain;  /* show whole image, adds empty space if needed */
-  border-radius: 6px;
-  background: #eee;    /* optional: visible background if image doesn’t fill all */
+  max-height: 300px;
+  object-fit: cover;
 }
 
 
