@@ -122,3 +122,21 @@ h4 {
 .description {
   max-width: 800px;
 }
+
+/* For the footer (funder) images */
+.footer-images {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-with-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-with-text p {
+  margin: 0 0 5px;
+  font-size: 14px;
+}
