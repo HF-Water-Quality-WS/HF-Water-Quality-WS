@@ -136,7 +136,7 @@ h4 {
 
 .footer-images img {
   width: 100%;      /* fill container */
-  max-width: 120px; /* prevents huge images */
+  max-width: 800px; /* prevents huge images */
   height: auto;
 }
 
